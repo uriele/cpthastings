@@ -4,3 +4,15 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+clap = { version = "4.5", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+serde_json = "1.0"
+blake3 = "1.5"
+chrono = "0.4"
+git2 = "0.18"
+anyhow = "1.0"
+fs-err = "2.11"
+walkdir = "2.5"
+colored = "2.1"
+lazy_static = "1.5.0"

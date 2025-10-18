@@ -1,3 +1,11 @@
+
+
+use cpthastings::Cli;
+use clap::Parser;
+
 fn main() {
-    println!("Hello, world!");
+    let cli = Cli::parse();
+    
+    // Execute the command
+    cli.command.run();
 }
